@@ -138,10 +138,10 @@
   color: #77762000!important;
 }
 
-.ui-sortable-handle:hover{
+.draggable-item:hover{
   background-color: #bcd4e6!important;
 }
-.ui-sortable-handle:hover .lead-student-btn{
+.draggable-item:hover .lead-student-btn{
   display: flex!important;
 }
 .connectedSortable:hover .lead-collapse-btn{
