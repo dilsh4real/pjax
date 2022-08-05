@@ -139,7 +139,7 @@
 }
 
 .draggable-item:hover{
-  background-color: #bcd4e6!important;
+  background-color: #dcefff78!important;
 }
 .draggable-item:hover .lead-student-btn{
   display: flex!important;
