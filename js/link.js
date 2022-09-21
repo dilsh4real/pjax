@@ -64,7 +64,7 @@ function update(src, target) {
 async function fetchPage(url) {
 	if (pages.has(url)) return pages.get(url)
 	let page = await fetch(url).then(r => r.text())
-	page = new DOMParser().parseFromString(page, 'text/html')
+	page = new DOMParser().parseFromString(page, 'text/ejs')
 	pages.set(url, page)
 	return page
 }
