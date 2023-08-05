@@ -149,12 +149,12 @@ var Timetable = function () {
         if (!i(n, o))
           throw new Error("Invalid time range: " + JSON.stringify([n, o]));
         var s = "[object Object]" === Object.prototype.toString.call(a);
-        console.log("WORKING TIMETABLE")
-        console.log(e)
-                console.log("WORKING TIMETABLE")
+        var eventElement = document.createElement("div");
+        eventElement.innerHTML = e;
+    
         return (
           this.events.push({
-            name: e,
+            name: eventElement,
             location: t,
             startDate: n,
             endDate: o,
